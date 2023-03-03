@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="Suite1" verbose="1" >
+  <test name="ExcelR.Ecommerce" >
+    <classes>
+       <class name="ExcelR.Ecommerce.Login" />
+       <class name="ExcelR.Ecommerce.Add2cart" />
+       <class name="ExcelR.Ecommerce.Remove_fromcart" />
+       <class name="ExcelR.Ecommerce.Checkout_validation" />
+       <class name="ExcelR.Ecommerce.Order_checkout" />
+       <class name="ExcelR.Ecommerce.Item_not2Cart" />
+       <class name="ExcelR.Ecommerce.Back2product" />
+       <class name="ExcelR.Ecommerce.Continuebutton" />
+       <class name="ExcelR.Ecommerce.About_us" />
+       <class name="ExcelR.Ecommerce.Twitter_link" />
+       <class name="ExcelR.Ecommerce.Facebook_link" />
+       <class name="ExcelR.Ecommerce.Linkedin_link" />
+       <class name="ExcelR.Ecommerce.Filter_byname" />
+       <class name="ExcelR.Ecommerce.Filter_byprice" />
+       <class name="ExcelR.Ecommerce.Logout" />
+    </classes>
+  </test>
+ 
+  
+</suite>
